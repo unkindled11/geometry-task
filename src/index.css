@@ -1,4 +1,30 @@
-@import-normalize; /* bring in normalize.css styles */
+@import-normalize; 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  
+  -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
+  -webkit-transition-delay: 9999s;
+}
+
+:root{
+  --text-color:#ffffff;
+  --main-bg-color:#050507;
+  --secondary-bg-color:#362E2D;
+  --main-neutral-color:#7C8685;
+  --secondary-neutral-color:#AAACA1;
+  --accent-color:#E3311D;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
 
 body {
   margin: 0;
@@ -7,6 +33,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--main-bg-color);
+  color: aliceblue;
+  font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 code {
