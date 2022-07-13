@@ -1,13 +1,11 @@
 import { Outlet } from 'react-router-dom';
-import Header from 'components/Header/Header';
+// import Sidebar from 'components/Sidebar';
 import style from './layOut.module.css';
 import Footer from 'components/Footer';
 const LayOut = () => {
   return (
     <>
-      <section className={style.header}>
-        <Header />
-      </section>
+      <section className={style.header}>{/* <Sidebar /> */}</section>
 
       <Outlet />
 
