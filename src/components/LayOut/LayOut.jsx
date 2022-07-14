@@ -4,6 +4,7 @@ import style from './layOut.module.css';
 import Footer from 'components/Footer';
 import MainContainer from 'shared/components/MainContainer';
 import SideContainer from 'shared/components/SideContainer';
+import Searchbar from 'components/SearchBar/SearchBar';
 const LayOut = () => {
   return (
     <MainContainer>
@@ -11,6 +12,7 @@ const LayOut = () => {
         <Sidebar />
       </section>
       <SideContainer>
+        <Searchbar />
         <Outlet />
       </SideContainer>
       <section className={style.footer}>
