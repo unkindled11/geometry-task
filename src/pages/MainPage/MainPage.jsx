@@ -1,12 +1,11 @@
-import Nav from 'components/Sidebar/Nav';
-
-import s from './mainPage.module.css'
+import Rules from 'components/Rules';
+import s from './mainPage.module.css';
 
 const MainPage = () => {
   return (
-    <div className={s.sideBar}>
-      <Nav />
-    </div>
+    <section>
+      <Rules />
+    </section>
   );
 };
 

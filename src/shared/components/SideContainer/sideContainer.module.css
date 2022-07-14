@@ -1,0 +1,9 @@
+.sideContent {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    height: 100vh;
+    padding: 40px 220px 0px 370px;
+    background: linear-gradient(180deg, grey 5.09%, #121212 33.4%);
+}
+

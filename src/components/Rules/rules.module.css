@@ -1,0 +1,39 @@
+.rulesBox {
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    background-color: #1c1c1c
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 40px;
+    
+    font-size: 40px;
+    
+}
+
+.rulesTitle {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.action {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.list li {
+    margin-top: 17px;
+    line-height: 1.3;
+}
+
+.max {
+    margin-top: 40px;
+    margin-bottom: 22px;
+    border-top: 1px solid #fff;
+    font-size: 15px;
+}
+
+.people {
+    font-weight: bold;
+}

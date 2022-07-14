@@ -6,34 +6,46 @@ import PrivateRoutes from 'shared/components/Routes/PrivateRoutes';
 
 const LayOut = lazy(() => import('components/LayOut'));
 const AuthPage = lazy(() => import('pages/AuthPage'));
+const MyProfilePage = lazy(() => import('pages/MyProfilePage'));
 const MainPage = lazy(() => import('pages/MainPage'));
+const FioPage = lazy(() => import('pages/FioPage'));
+const TelPage = lazy(() => import('pages/TelPage'));
+const InnPage = lazy(() => import('pages/InnPage'));
+const PassportPage = lazy(() => import('pages/PassportPage'));
+const CarPage = lazy(() => import('pages/CarPage'));
+const EmailPage = lazy(() => import('pages/EmailPage'));
+const TelegramPage = lazy(() => import('pages/TelegramPage'));
+const VkPage = lazy(() => import('pages/VkPage'));
+const ContactsNamePage = lazy(() => import('pages/ContactsNamePage'));
+const IdPage = lazy(() => import('pages/IdPage'));
+const HlrPage = lazy(() => import('pages/HlrPage'));
 
 const NavigationRoutes = () => {
   return (
     <div>
       <Suspense fallback={<div>loadind...</div>}>
         <Routes>
-          {/* <Route element={<LayOut />}> */}
           <Route element={<PublicRoutes />}>
             <Route path="/auth" element={<AuthPage />} />
           </Route>
-
-          <Route element={<PrivateRoutes />}>
-            <Route path="/" element={<MainPage />} />
-            <Route path="/fio" element={<MainPage />} />
-            <Route path="/phone-numeber" element={<MainPage />} />
-            <Route path="/inn" element={<MainPage />} />
-            <Route path="/passport" element={<MainPage />} />
-            <Route path="/car" element={<MainPage />} />
-            <Route path="/e-mail" element={<MainPage />} />
-            <Route path="/telegram" element={<MainPage />} />
-            <Route path="/vk" element={<MainPage />} />
-            <Route path="/contacts-name" element={<MainPage />} />
-            <Route path="/id" element={<MainPage />} />
-            <Route path="/hlr-request" element={<MainPage />} />
+          <Route element={<LayOut />}>
+            <Route element={<PrivateRoutes />}>
+              <Route path="/profile" element={<MyProfilePage />} />
+              <Route path="/" element={<MainPage />} />
+              <Route path="/fio" element={<FioPage />} />
+              <Route path="/phone-numeber" element={<TelPage />} />
+              <Route path="/inn" element={<InnPage />} />
+              <Route path="/passport" element={<PassportPage />} />
+              <Route path="/car" element={<CarPage />} />
+              <Route path="/e-mail" element={<EmailPage />} />
+              <Route path="/telegram" element={<TelegramPage />} />
+              <Route path="/vk" element={<VkPage />} />
+              <Route path="/contacts-name" element={<ContactsNamePage />} />
+              <Route path="/id" element={<IdPage />} />
+              <Route path="/hlr-request" element={<HlrPage />} />
+            </Route>
+            <Route path="*" element={<Navigate to="/auth" replace />} />
           </Route>
-          <Route path="*" element={<Navigate to="/auth" replace />} />
-          {/* </Route> */}
         </Routes>
       </Suspense>
     </div>

@@ -7,6 +7,12 @@ const Nav = () => {
     isActive ? s.linkActive + ' ' + s.link : s.link;
   return (
     <>
+      <div className={s.userWrapper}>
+        <NavLink className={getActiveLink} to="/profile">
+          Name Surname
+        </NavLink>
+      </div>
+
       <NavLink className={getActiveLink} to="/">
         Главная
       </NavLink>
@@ -28,7 +34,7 @@ const Nav = () => {
       </NavLink>
 
       <NavLink className={getActiveLink} to="/car">
-        Автомобиль
+        Авто
       </NavLink>
 
       <NavLink className={getActiveLink} to="/e-mail">
