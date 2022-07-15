@@ -1,0 +1,56 @@
+.wrap{
+    margin-top: 70px;
+}
+
+.list {
+    justify-content: space-around;
+    display: grid;
+    grid-column-gap: 30px;
+    grid-row-gap: 16px;
+    list-style: none;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(9, 90px);
+    padding-left: 0;
+    padding-bottom: 50px;
+
+}
+
+.card {
+    background-color: var(--main-white);
+    text-align: start;
+    background-color: #1c1c1c;
+    padding-left: 30px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 6px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.descr{
+    font-size: 13px;
+}
+
+.svg{
+    display: flex;
+    width: 47px;
+    height: 32px;
+    fill: white;
+    overflow: visible;
+}
+

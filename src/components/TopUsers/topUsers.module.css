@@ -1,0 +1,44 @@
+.allBox{
+    background-color: #1c1c1c;
+    padding: 10px 30px 30px 30px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.title{
+font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.transactionHistory {
+    margin-top: 40px;
+    font-size: 24px;
+    background-color: #1c1c1c;
+}
+
+
+.row {
+    height: 45px;
+}
+
+.head {
+    color: #fff;
+    opacity: 0.6;
+    background-color: black;
+}
+
+.rowElement{
+    padding-left: 60px;
+    width: 25%;
+    padding-right: 60px;
+    text-align: center;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-size: 15px;
+    cursor: default;
+}
+
+.row:nth-child(even) {
+    background-color: black; 
+}
+

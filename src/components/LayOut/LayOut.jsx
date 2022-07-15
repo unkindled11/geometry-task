@@ -15,9 +15,7 @@ const LayOut = () => {
         <Searchbar />
         <Outlet />
       </SideContainer>
-      <section className={style.footer}>
-        <Footer />
-      </section>
+      <section className={style.footer}>{/* <Footer /> */}</section>
     </MainContainer>
   );
 };
