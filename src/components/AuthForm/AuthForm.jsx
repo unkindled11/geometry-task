@@ -64,9 +64,7 @@ const AuthForm = ({ login }) => {
               onClick={onClickSignIn}
               type="button"
             >
-              <svg className={s.arrow} width="10px">
-                <path d="M31 16l-15-15v9h-16v12h16v9z"></path>
-              </svg>
+              Войти
             </button>
           </div>
         </form>

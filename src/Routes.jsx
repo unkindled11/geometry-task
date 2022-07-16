@@ -19,6 +19,8 @@ const VkPage = lazy(() => import('pages/VkPage'));
 const ContactsNamePage = lazy(() => import('pages/ContactsNamePage'));
 const IdPage = lazy(() => import('pages/IdPage'));
 const HlrPage = lazy(() => import('pages/HlrPage'));
+const HistoryPage = lazy(() => import('pages/HistoryPage'));
+const SettingPage = lazy(() => import('pages/SettingsPage'));
 
 const NavigationRoutes = () => {
   return (
@@ -43,6 +45,8 @@ const NavigationRoutes = () => {
               <Route path="/contacts-name" element={<ContactsNamePage />} />
               <Route path="/id" element={<IdPage />} />
               <Route path="/hlr-request" element={<HlrPage />} />
+              <Route path="/history" element={<HistoryPage />} />
+              <Route path="/settings" element={<SettingPage />} />
             </Route>
             <Route path="*" element={<Navigate to="/auth" replace />} />
           </Route>

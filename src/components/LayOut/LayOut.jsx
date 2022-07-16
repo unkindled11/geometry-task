@@ -8,14 +8,14 @@ import Searchbar from 'components/SearchBar/SearchBar';
 const LayOut = () => {
   return (
     <MainContainer>
-      <section className={style.header}>
-        <Sidebar />
-      </section>
+      <Sidebar />
       <SideContainer>
         <Searchbar />
         <Outlet />
+        <section>
+          <Footer />
+        </section>
       </SideContainer>
-      <section className={style.footer}>{/* <Footer /> */}</section>
     </MainContainer>
   );
 };

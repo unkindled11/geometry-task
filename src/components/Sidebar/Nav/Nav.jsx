@@ -1,10 +1,17 @@
 import { NavLink } from 'react-router-dom';
+import { logOut } from 'redux/auth/auth-operation';
+import { useDispatch } from 'react-redux';
 
 import s from './nav.module.css';
 
 const Nav = () => {
+  const dispatch = useDispatch();
   const getActiveLink = ({ isActive }) =>
     isActive ? s.linkActive + ' ' + s.link : s.link;
+
+  const logOutAction = () => {
+    dispatch(logOut());
+  };
   return (
     <>
       <div className={s.userWrapper}>
@@ -60,6 +67,18 @@ const Nav = () => {
       <NavLink className={getActiveLink} to="/hlr-request">
         HLR-запрос
       </NavLink>
+
+      <NavLink className={getActiveLink} to="/history">
+        История
+      </NavLink>
+
+      <NavLink className={getActiveLink} to="/settings">
+        Настройки
+      </NavLink>
+
+      <button className={s.btn} onClick={logOutAction}>
+        Выход
+      </button>
     </>
   );
 };

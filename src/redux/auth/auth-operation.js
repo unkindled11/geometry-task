@@ -9,10 +9,10 @@ export const signIn = createAsyncThunk(
   async (data, { rejectWithValue }) => {
     try {
       const user = await services.signIn(data);
-      Notify.success('Вітаю, Ви успішно залогінились!');
+      Notify.success('Поздравляю,вы вошли!');
       return user;
     } catch (error) {
-      Notify.failure('Нажаль, щось пішло не так, спробуйте ще!');
+      Notify.failure('Что-то пошло не так...');
       return rejectWithValue(error);
     }
   }
@@ -43,6 +43,6 @@ export const getCurrentUser = createAsyncThunk(
 //logOut
 export const logOut = createAsyncThunk('auth/logOut', async () => {
   await services.logOut;
-  Notify.success('Вітаю, логаут здійснено!');
+  Notify.success('Вы вышли!');
   return;
 });

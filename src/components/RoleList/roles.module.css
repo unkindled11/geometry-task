@@ -1,5 +1,5 @@
-.wrap{
-    margin-top: 70px;
+.wrap {
+    margin-top: 45px;
 }
 
 .list {
@@ -9,20 +9,21 @@
     grid-row-gap: 16px;
     list-style: none;
     grid-template-columns: repeat(4, 300px);
-    grid-template-rows: repeat(9, 90px);
+    grid-template-rows: repeat(4, 90px);
+    border-radius: 10px;
     padding-left: 0;
     margin-bottom: -10px;
-
+background-color: #1c1c1c;
 }
 
 .card {
     background-color: var(--main-white);
     text-align: start;
-    background-color: #1c1c1c;
-    padding-left: 30px;
-display: flex;
-align-items: center;
-justify-content: space-between;
+    
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     transition-property: box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -33,24 +34,23 @@ justify-content: space-between;
     border-radius: 6px;
 }
 
-.card:hover{
+.card:hover {
     transform: scale(1.05);
 }
 
-.title{
+.title {
     font-size: 20px;
     font-weight: 700;
 }
 
-.descr{
+.descr {
     font-size: 13px;
 }
 
-.svg{
+.svg {
     display: flex;
     width: 47px;
     height: 32px;
     fill: white;
     overflow: visible;
 }
-

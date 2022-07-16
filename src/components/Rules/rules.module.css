@@ -1,15 +1,15 @@
+
 .rulesBox {
     padding: 10px 30px 10px 30px;
     border-radius: 10px;
-    background-color: #1c1c1c
+    background-color: #1c1c1c;
+    
 }
 
 .title {
     margin-top: 0;
     margin-bottom: 40px;
-    
     font-size: 40px;
-    
 }
 
 .rulesTitle {
