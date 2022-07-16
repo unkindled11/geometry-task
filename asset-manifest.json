@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/geometry-task/static/css/main.510a2a94.css",
-    "main.js": "/geometry-task/static/js/main.15493934.js",
+    "main.js": "/geometry-task/static/js/main.46cc0961.js",
     "static/css/637.8e4261c7.chunk.css": "/geometry-task/static/css/637.8e4261c7.chunk.css",
     "static/js/637.45e25f03.chunk.js": "/geometry-task/static/js/637.45e25f03.chunk.js",
     "static/css/376.f0ab4f90.chunk.css": "/geometry-task/static/css/376.f0ab4f90.chunk.css",
@@ -32,14 +32,14 @@
     "static/js/766.b98b820f.chunk.js": "/geometry-task/static/js/766.b98b820f.chunk.js",
     "static/css/320.6c9388c9.chunk.css": "/geometry-task/static/css/320.6c9388c9.chunk.css",
     "static/js/320.7ced6327.chunk.js": "/geometry-task/static/js/320.7ced6327.chunk.js",
-    "static/css/214.567965ef.chunk.css": "/geometry-task/static/css/214.567965ef.chunk.css",
+    "static/css/214.f28887c4.chunk.css": "/geometry-task/static/css/214.f28887c4.chunk.css",
     "static/js/214.e8765a28.chunk.js": "/geometry-task/static/js/214.e8765a28.chunk.js",
     "static/css/266.d48051ee.chunk.css": "/geometry-task/static/css/266.d48051ee.chunk.css",
     "static/js/266.858c97c3.chunk.js": "/geometry-task/static/js/266.858c97c3.chunk.js",
     "static/js/564.ef27d36a.chunk.js": "/geometry-task/static/js/564.ef27d36a.chunk.js",
     "index.html": "/geometry-task/index.html",
     "main.510a2a94.css.map": "/geometry-task/static/css/main.510a2a94.css.map",
-    "main.15493934.js.map": "/geometry-task/static/js/main.15493934.js.map",
+    "main.46cc0961.js.map": "/geometry-task/static/js/main.46cc0961.js.map",
     "637.8e4261c7.chunk.css.map": "/geometry-task/static/css/637.8e4261c7.chunk.css.map",
     "637.45e25f03.chunk.js.map": "/geometry-task/static/js/637.45e25f03.chunk.js.map",
     "376.f0ab4f90.chunk.css.map": "/geometry-task/static/css/376.f0ab4f90.chunk.css.map",
@@ -70,7 +70,7 @@
     "766.b98b820f.chunk.js.map": "/geometry-task/static/js/766.b98b820f.chunk.js.map",
     "320.6c9388c9.chunk.css.map": "/geometry-task/static/css/320.6c9388c9.chunk.css.map",
     "320.7ced6327.chunk.js.map": "/geometry-task/static/js/320.7ced6327.chunk.js.map",
-    "214.567965ef.chunk.css.map": "/geometry-task/static/css/214.567965ef.chunk.css.map",
+    "214.f28887c4.chunk.css.map": "/geometry-task/static/css/214.f28887c4.chunk.css.map",
     "214.e8765a28.chunk.js.map": "/geometry-task/static/js/214.e8765a28.chunk.js.map",
     "266.d48051ee.chunk.css.map": "/geometry-task/static/css/266.d48051ee.chunk.css.map",
     "266.858c97c3.chunk.js.map": "/geometry-task/static/js/266.858c97c3.chunk.js.map",
@@ -78,6 +78,6 @@
   },
   "entrypoints": [
     "static/css/main.510a2a94.css",
-    "static/js/main.15493934.js"
+    "static/js/main.46cc0961.js"
   ]
 }
