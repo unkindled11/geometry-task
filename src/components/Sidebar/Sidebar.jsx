@@ -1,5 +1,4 @@
 import Nav from './Nav';
-import MainContainer from 'shared/components/MainContainer';
 
 import s from './sidebar.module.css';
 

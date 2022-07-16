@@ -1,5 +1,3 @@
-import React, { useState } from 'react';
-
 import s from './passportPage.module.css';
 import Rules from 'components/Rules';
 

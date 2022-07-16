@@ -1,6 +1,5 @@
 import s from './vkPage.module.css';
 import Rules from 'components/Rules';
-import Footer from 'components/Footer';
 
 const VkPage = () => {
   const handleSubmit = e => {};
